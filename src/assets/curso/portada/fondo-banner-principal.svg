@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320" height="495.889" viewBox="0 0 1320 495.889">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.404" y1="0.59" x2="1.042" y2="1.097" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7e53c5"/>
+      <stop offset="1" stop-color="#4c1ba0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7e53c5"/>
+      <stop offset="1" stop-color="#5b14d9"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Rectangle_652" data-name="Rectangle 652" d="M1299.213,0H20.787C9.307,0,0,8.223,0,18.366V477.523c0,10.143,9.307,18.366,20.787,18.366H1299.213c11.48,0,20.787-8.223,20.787-18.366V18.366C1320,8.223,1310.693,0,1299.213,0Z" transform="translate(139.607 72.456)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-0.031" y1="0.042" x2="1.042" y2="1.097" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-path-2">
+      <path id="Rectangle_652-2" data-name="Rectangle 652" d="M1676.642-1132.4H398.216c-11.48,0-20.787,8.218-20.787,18.365v459.106c0,10.142,9.307,18.365,20.787,18.365H1676.642c11.48,0,20.787-8.218,20.787-18.365v-459.106C1697.429-1124.184,1688.122-1132.4,1676.642-1132.4Z" transform="translate(-377.429 1132.402)" fill="url(#linear-gradient-2)"/>
+    </clipPath>
+    <filter id="Trazado_113153" x="480.208" y="-61.622" width="865.578" height="463.188" filterUnits="userSpaceOnUse">
+      <feOffset dx="-26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_113153-2" x="-58.944" y="347.565" width="337.39" height="196.882" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-2"/>
+      <feFlood flood-opacity="0.424"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Enmascarar_grupo_108" data-name="Enmascarar grupo 108" transform="translate(-139.607 -72.456)" clip-path="url(#clip-path)">
+    <path id="Rectangle_652-3" data-name="Rectangle 652" d="M1299.213,0H20.787C9.307,0,0,8.223,0,18.366V477.523c0,10.143,9.307,18.366,20.787,18.366H1299.213c11.48,0,20.787-8.223,20.787-18.366V18.366C1320,8.223,1310.693,0,1299.213,0Z" transform="translate(139.607 72.456)" fill="url(#linear-gradient-3)"/>
+    <g id="Grupo_78381" data-name="Grupo 78381" transform="translate(140.394 70)" style="isolation: isolate">
+      <g id="Grupo_78335" data-name="Grupo 78335" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <g id="Grupo_78334" data-name="Grupo 78334" transform="translate(-38.731 -32.166)" opacity="0.416">
+          <g transform="matrix(1, 0, 0, 1, 37.94, 34.62)" filter="url(#Trazado_113153)">
+            <path id="Trazado_113153-3" data-name="Trazado 113153" d="M904.522-1139.963h811.417v8.542q.009,189.839.161,379.677c.008,5.937-1.689,8.3-7.638,9.884-93.714,24.936-179.162,7.188-257.66-47.061-37.365-25.824-69.879-56.958-101.983-88.587-33.365-32.871-65.721-66.889-100.982-97.718-80.982-70.8-175.885-117.572-279.524-148C947.475-1129.345,926.277-1134.29,904.522-1139.963Z" transform="translate(-371.31 1105.34)" fill="#cdb8f1"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 37.94, 34.62)" filter="url(#Trazado_113153-2)">
+            <path id="Trazado_113153-4" data-name="Trazado 113153" d="M1187.912-997.081H904.578v-2.983q0-66.289-.056-132.577c0-2.073.59-2.9,2.667-3.452,32.723-8.707,62.561-2.51,89.971,16.433,13.047,9.017,24.4,19.889,35.611,30.933,11.65,11.478,22.949,23.357,35.261,34.122,28.278,24.722,61.417,41.054,97.605,51.679C1172.914-1000.789,1180.316-999.062,1187.912-997.081Z" transform="translate(-942.47 1514.53)" fill="#cdb8f1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Importancia y aplicación de la investigación**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF3_TALENTO_HUMANO_MEDIADO_POR_HERRAMIENTAS_TIC/](https://ecored-sena.github.io/CF3_TALENTO_HUMANO_MEDIADO_POR_HERRAMIENTAS_TIC/)
 
 #
 
