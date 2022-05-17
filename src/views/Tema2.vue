@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#fff") 2
       h1 Estadística
@@ -12,11 +12,11 @@
         p Consiste en recoger datos para así clasificarlos y presentarlos adecuadamente, para esto se requiere de una organización y análisis de la información, de tal modo que sirvan para la posterior toma de decisiones.
         p La estadística es utilizada científicamente pero también de manera rutinaria por las personas, que en muchas ocasiones la emplean desconociendo su interpretación. Comúnmente es y ha sido aplicada a lo largo de la historia de la humanidad en diferentes áreas del conocimiento y en diferentes conductas sociales.
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img1.svg', style="width: 450px").m-auto
       .col-lg-7
         p Dada su naturaleza y su método es una ciencia exacta, debido a que permite experimentar las probabilidades con argumentos que desarrollan o crean métodos, lo cuales permiten evaluar el comportamiento de las tendencias, asumiendo como objetivo el estudio de conjuntos numerosos de personas, animales y objetos de cualquier clase o cualquier tipo de información, entre otras, que puedan ser recopiladas y analizadas para la orientación del planteamiento de necesidades.
@@ -120,7 +120,7 @@
     p.mb-5 A continuación vea gráficamente un resumen sobre los tipos de parámetros desarrollados:
     .titulo-sexto.color-acento-botones.mb-5
       p.mb-0 #[b Figura 1]. Tipos de parámetros estadísticos
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema2/img10.svg', style="width: 1250px").m-auto
     .separador.mb-5
     #t_2_2
@@ -133,11 +133,11 @@
           .col-12.p-4.bg-color4
             p.mb-0 Entonces en el objeto de estudio el análisis de la información conlleva a estudiar datos identificados, estos datos se conocen como población, y un ejemplo puede ser la cantidad de personas o la cantidad de cosas en un lugar específico, con el fin de ser analizada.
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img2.png', style="width: 450px").m-auto
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
       .col-lg-7
         p Para definir una población tenga en cuenta características que terminan siendo determinantes para el desarrollo de la investigación, el primer criterio para tener en cuenta es la selección correcta de la población a estudiar, porque de acuerdo con una selección clara de su población permitirá alcanzar una delimitación objetiva, permitiendo la organización de los datos requeridos para el estudio.
@@ -158,14 +158,14 @@
                 p La acción de realizar un muestreo de la información se refiere a la selección de una porción-parte-subconjunto de datos del universo o población, la cual haya sido seleccionada, delimitada y ubicada cronológicamente y es objeto de estudio en la investigación.
                 p.mb-0 El muestreo tiene por objetivo estudiar las relaciones existentes entre la distribución de una variable “Y” en una población “Z” y, la distribución de esta variable en la muestra de estudio (Hernández Sampieri, 2006), quien a su vez también expone que cuando se determina la muestra en una investigación se toman dos decisiones fundamentales: 
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema2/img11.svg', style="width: 450px").m-auto
         .row.mb-5
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/img12.svg', style="width: 550px").m-auto
           .col-lg-6
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/img13.svg', style="width: 550px").m-auto
         p.mb-5 Estos dos elementos permiten claramente unificar esfuerzos mediante la centralización de la información, logrando con estos tener datos que representen la integralidad de los resultados analizados y que conllevarán a las decisiones.
         .row.align-items-center.bg-color3.p-5.p-lg-0.mb-5(style="margin-inline: -3.2rem !important")
@@ -181,7 +181,7 @@
               i.fas.fa-file-download
         h2.mb-4 Determinación de la muestra
         p.mb-5 Buscando cómo llegar de manera correcta al tamaño de la muestra, la cual busca encontrar esa porción-parte-subconjunto de datos del universo o población que haya sido seleccionada, se deben buscar mecanismos para la reducción de costos en diferentes recursos, entre ellos:
-        .row.justify-content-evenly.mb-5
+        .row.justify-content-evenly.mb-5(data-aos="zoom-in-up")
           .col-lg-3.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/img15.svg', style="width: 300px").m-auto
@@ -198,7 +198,7 @@
             p Una cosa muy importante es que el nivel de confianza lo coloca el investigador, este es el grado de certeza que se requiere en la investigación, esto ligado el margen de error, que es la estimación máxima aceptada de equivocación en el resultado analizado en una investigación.
             p.mb-0 Profundice en el tema de determinación de la muestra a través del video “Tamaños de muestra paso a paso” en el material complementario.
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema2/img4.png', style="width: 450px").m-auto
 
 </template>

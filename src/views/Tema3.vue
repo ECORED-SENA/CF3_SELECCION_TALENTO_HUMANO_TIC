@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#fff") 3
       h1 Fuentes y técnicas de recolección de información
@@ -11,7 +11,7 @@
       .col-12.px-5
         .row.align-items-center.mb-4
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema3/img1.png', style="width: 450px").m-auto
           .col-lg-7
             p La obtención de la información es vital para la objetividad y desarrollo científico de una investigación, buscando canalizar los mecanismos que proveen la información se han denominado fuentes de información, las cuales estadísticamente se han catalogado bajo varios conceptos; pero los tradicionalmente conocidos son las fuentes de información primarias, secundarias y terciarias.
@@ -29,7 +29,7 @@
        p.mb-0 La siguiente figura identifica las principales fuentes de información, que serán de gran apoyo al investigador para la focalización de la información.
     .titulo-sexto.color-acento-botones.mb-5
       p.mb-0 #[b Figura 2]. Fuentes de información
-    .row.mb-4
+    .row.mb-4(data-aos="zoom-in")
       .col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/img3.svg', style="width: 350px").m-auto
@@ -41,11 +41,11 @@
           img(src='@/assets/curso/tema3/img5.svg', style="width: 350px").m-auto
     p.mb-5 #[b Nota]. Adaptado de los Tipos de fuentes de información (Rivera & Fernández, 2015).
     p.mb-5 Es importante que para la selección de la fuente de información adecuada se consideren los siguientes criterios (Rivera & Fernández, 2015):
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in-up")
       img(src='@/assets/curso/tema3/img6.svg', style="width: 1250px").m-auto
     .separador.mb-5
     #t_3_2
-    .titulo-segundo.color-secundario.mb-0
+    .titulo-segundo.color-secundario
       h2 3.2 Técnicas de recolección de información
     .row.align-items-start.mb-5
       .col-auto
@@ -100,6 +100,7 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img7.png', style="width: 450px").m-auto
+    p.mb-5 Una vez analizadas las características para la selección correcta de las técnicas para la recolección de la información se orienta al aprendiz en las siguientes técnicas, las cuales le permitirán recolectar la información bajo métodos prácticos, los cuales facilitarán realizar los análisis de información en los diferentes modelos estadísticos.
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="Encuesta")
         .row.p-4.align-items-center

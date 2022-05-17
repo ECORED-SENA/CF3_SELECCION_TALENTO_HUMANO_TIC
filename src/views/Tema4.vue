@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#fff") 4
       h1 Instrumentos
@@ -19,7 +19,7 @@
           .col-12.p-4.bg-color4
             p.mb-0 Hernández Sampieri (2014), expone que toda medición o instrumento de recolección de datos debe reunir requisitos esenciales, entre ellos la confiabilidad y la validez, para lo cual se invita a ampliar este concepto bajo el video del material complementario #[b “Confiabilidad y validez de un instrumento de investigación I Metodología de la investigación”].
       .col-lg-6
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema4/img1.png', style="width: 550px").m-auto
     h2.mb-5 Construcción y uso
     .row.align-items-start.mb-4
@@ -141,7 +141,7 @@
           img(src='@/assets/curso/tema4/img2.svg', style="width: 70px").m-auto
       .col
         p.mb-0 Para la formulación de la pregunta de investigación tenga en cuenta que esta se organiza por un propósito en específico y a partir de lo que se pretende buscar se escoge el tipo de pregunta a realizar, bajo este concepto existen dos criterios principales, son denominadas preguntas de tipo cerrado, abierto o mixto, las cuales cuentan con las siguientes características:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-11.col-lg-5.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -249,7 +249,7 @@
                 figure
                   img(src='@/assets/curso/tema4/img11.png', style="width: 90px").m-auto
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema4/img3.png', style="width: 450px").m-auto
 
 </template>

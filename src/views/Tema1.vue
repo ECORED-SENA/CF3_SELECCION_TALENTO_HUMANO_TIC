@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#fff") 1
       h1 Investigación
@@ -13,10 +13,38 @@
           p.mb-2 El hecho de investigar se refiere a ir tras la búsqueda de algo, con la orientación de la investigación científica, donde este algo se encuentra encaminado a ir tras un nuevo conocimiento de algo no estudiado, no desarrollado o que va a ser estudiado de manera más amplia o detallada.
         p.mb-0 Tiene como soporte la constante aplicación de métodos validados por las diferentes comunidades científicas, entre las cuales están:
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
-    figure.mb-5
-      img(src='@/assets/curso/tema1/img1.png', style="width: 950px").m-auto
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+      .col-lg-6.px-0
+        figure
+          img(src='@/assets/curso/tema1/img1.png', style="width: 680px").m-auto
+      .col-lg-4.p-5.bg-color3.bg-color7
+        ul.lista-ul.mb-0
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Académicas
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Estadísticas
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Sociológicas
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Filosóficas
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Literarias
+          li 
+            i.far.fa-circle(style="color: #7F4FC7")
+            |
+            p.mb-0 Y en general de todas las áreas del conocimiento
     p Esto genera un respaldo de confianza y credibilidad para la aplicación de estos procesos y las secuencias determinadas para la metodología de la investigación científica.
     p.mb-5 El estudio mediante el cual se utiliza la aplicación de métodos científicos conlleva a procesos ordenados y sistemáticos, que se despliegan para los análisis de información requerida en los diferentes estudios; la investigación científica ayuda a comprender los entornos de desempeño, dando con esto, objetividad y nuevos conocimientos, independientemente del área o campo que estudie, permitiendo establecer o desvirtuar teorías, que además de los resultados arrojados también pueden ser objeto de más investigaciones que continúen con la generación de nuevos conocimientos y que en últimas, conducen a mejoras continuas y transformadoras, en los campos objeto de estudio.
     .row.mb-5.bg-color1
@@ -30,10 +58,42 @@
             p La investigación comprende un número de técnicas de mucha utilidad, por ello, para acceder a la información se requiere de búsquedas integrales, científicas, válidas, verificando fuentes documentales y fuentes humanas, utilizando diferentes métodos de captación de información, los cuales son llevados a escalas de medición estadística, para así poder evaluarlos, con el objetivo de resolver los problemas identificados.
             p Las metodologías para utilizar pueden incluir entre otros:
           .col-lg-5
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img2.png', style="width: 450px").m-auto
-        figure.mb-5
-          img(src='@/assets/curso/tema1/img3.png', style="width: 950px").m-auto
+        .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+          .col-lg-6.px-0
+            figure
+              img(src='@/assets/curso/tema1/img3.png', style="width: 680px").m-auto
+          .col-lg-4.p-5.bg-color3.bg-color7
+            ul.lista-ul.mb-0
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Entrevistas
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Encuestas
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Análisis demográficos
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Riesgos o amenazas
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Datos históricos, estacionarios y contemporáneos
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Publicaciones y libros
+              li 
+                i.far.fa-circle(style="color: #7F4FC7")
+                |
+                p.mb-0 Guías de observación
         .row.align-items-start
           .col-auto
             figure
@@ -45,23 +105,28 @@
         .row.align-items-start.mb-4
           .col-lg-8
             TabsA.color-acento-botones
-              .tarjeta.color-acento-botones.p-4(titulo="Método<br>deductivo")
+              .tarjeta.color-acento-botones.p-4(titulo="Método deductivo")
+                h3 Método deductivo
                 p Es aquel que va de lo general a lo específico, es decir, que parte de un enunciado general del que se van desentrañando partes o elementos específicos.
-              .tarjeta.color-acento-botones.p-4(titulo="Método<br>inductivo")
+              .tarjeta.color-acento-botones.p-4(titulo="Método inductivo")
+                h3 Método inductivo
                 p Es aquel que va de los casos particulares a lo general, es decir, que parte de los datos o elementos individuales y por semejanzas, se sintetiza y se llega a un enunciado general que explica y comprende esos casos.
-              .tarjeta.color-acento-botones.p-4(titulo="Método<br>histórico")
-                p Va del pasado al presente para proyectarse al futuro. 
+              .tarjeta.color-acento-botones.p-4(titulo="Método histórico")
+                h3 Método histórico
+                p Va del pasado al presente para proyectarse al futuro.
                 p Por lo general, la etapa de tiempo proyecta al futuro, es equivalente en extensión a la etapa considerada del pasado.
-              .tarjeta.color-acento-botones.p-4(titulo="Método<br>explicativo")
+              .tarjeta.color-acento-botones.p-4(titulo="Método explicativo")
+                h3 Método explicativo
                 p Es el mismo histórico, además de considerar la respuesta al #[span.txt-deco1 ¿cómo?]
                 p Se centrará en responder las preguntas:
                 p #[span.txt-deco1 ¿Por qué es así la realidad?] o #[span.txt-deco1 ¿cuáles son las causas?]
                 p Lo que implica plantear hipótesis explicativas y un diseño explicativo.
-              .tarjeta.color-acento-botones.p-4(titulo="Método<br>experimental")
+              .tarjeta.color-acento-botones.p-4(titulo="Método experimental")
+                h3 Método experimental
                 p Va a partir de lo ya descrito y explicado, se centra en predecir lo que va a pasar en el futuro en sí, en esa situación de la realidad se hace un determinado cambio. 
                 p Sobre la base de la respuesta al #[span.txt-deco1 ¿cómo?] y al #[span.txt-deco1 ¿por qué?] como premisas se afirma que si se hace tal cambio, va a suceder tal cosa, conllevando con esto a hipótesis predictivas #[b "si es así por qué.... y si se hace tal cambio, entonces va a suceder tal cosa”].
           .col-lg-4
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img4.png', style="width: 450px").m-auto
     .separador.mb-5
     #t_1_2
@@ -78,7 +143,7 @@
             p El objeto de estudio es determinante porque permite enfocar la investigación de manera adecuada, por ello existen variedad de tipos investigativos, clasificándolos bien sea por su propósito, el nivel de profundización, el tipo de datos empleados, el grado de manipulación de las variables, el tipo de inferencia o el tiempo en el que se realiza.
         p Lo anterior puede dar criterios genéricos de tipos de investigación, que de manera específica se desarrollan a través de la clasificación de los tipos de investigación según el objeto de estudio:
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img5.png', style="width: 450px").m-auto
     .tarjeta.tarjeta--azul.p-4
       SlyderA(tipo="b")
@@ -124,7 +189,7 @@
             p #[b Investigación inductiva]: en este tipo de investigación el conocimiento se genera a partir de lo particular para llegar a una generalización. Se basa en la recolección de datos específicos para poder crear nuevas teorías.
             p #[b Investigación hipotética-deductiva]: se basa en la observación de la realidad para crear una hipótesis. Luego, se aplica una deducción para obtener una conclusión y finalmente se verifica o descarta a través de la experiencia.
           .col-lg-6
-            figure
+            figure(data-aos="zoom-in-up")
               img(src='@/assets/curso/tema1/img10.png', style="width: 450px").m-auto
   
 </template>
