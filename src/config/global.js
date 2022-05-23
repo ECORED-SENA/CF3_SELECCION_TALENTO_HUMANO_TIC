@@ -99,7 +99,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -155,8 +155,6 @@ export default {
     {
       referencia:
         'Rivera, M. & Fernández, M. (2015). <em>Fuentes de información</em>. Universidad Autónoma del Estado de Hidalgo. ',
-      link:
-        'https://repository.uaeh.edu.mx/bitstream/bitstream/handle/123456789/16700/LECT132.pdf',
     },
     {
       referencia:
@@ -341,7 +339,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

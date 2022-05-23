@@ -150,8 +150,8 @@
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h3.txt-deco1 Según su propósito
-            p Investigación teórica: se recurre a la recolección de datos para generar nuevos conceptos.
-            p Investigación aplicada: aplicación de estrategias existentes para el tratamiento de un problema específico. Es de común aplicación en las ingenierías o en el área de la salud.
+            p #[b Investigación teórica:] se recurre a la recolección de datos para generar nuevos conceptos.
+            p #[b Investigación aplicada:] aplicación de estrategias existentes para el tratamiento de un problema específico. Es de común aplicación en las ingenierías o en el área de la salud.
           .col-lg-6
             figure
               img(src='@/assets/curso/tema1/img6.png', style="width: 450px").m-auto

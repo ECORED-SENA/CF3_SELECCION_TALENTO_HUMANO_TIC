@@ -10,7 +10,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
+          h2 Términos de la ingestigación
         p.mb-4 Afianzar algunos conceptos sobre la importancia y aplicación de la investigación, la estadística, las fuentes y las técnicas para la recolección de datos, además de los instrumentos y la aplicación de estos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

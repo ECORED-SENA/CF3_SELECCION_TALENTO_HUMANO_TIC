@@ -174,10 +174,10 @@
               img(src='@/assets/curso/tema2/img14.svg', style="width: 550px").m-auto
           .col-lg-6
             p Se invita a consultar en el material complementario el video.
-            h3 “¿Qué son la población y la muestra?”.
+            h3 “¿Qué son la población y la muestra?”
           .col-2.mb-4.mb-lg-0
             a.boton.color-acento-botones.me-3(href="https://youtu.be/Q4RZqKLZ8zU" target="_blank")
-              span Descargar
+              span Ver video
               i.fas.fa-file-download
         h2.mb-4 Determinación de la muestra
         p.mb-5 Buscando cómo llegar de manera correcta al tamaño de la muestra, la cual busca encontrar esa porción-parte-subconjunto de datos del universo o población que haya sido seleccionada, se deben buscar mecanismos para la reducción de costos en diferentes recursos, entre ellos:

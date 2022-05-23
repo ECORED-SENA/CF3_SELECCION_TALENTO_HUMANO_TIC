@@ -64,7 +64,7 @@
               li 
                 i.far.fa-circle(style="color: #7F4FC7")
                 |
-                p.mb-0 Si se trata de uno nuevo, decidir de qué tipo (cuestionario de actitudes, hoja de observación, aparato, etc.) y cual será su formato, por ejemplo, en cuestionarios.
+                p.mb-0 Si se trata de uno nuevo, decidir de qué tipo (cuestionario de actitudes, hoja de observación, aparato, etc.) y cuál será su formato, por ejemplo, en cuestionarios.
               li 
                 i.far.fa-circle(style="color: #7F4FC7")
                 |
@@ -166,9 +166,8 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema4/img5.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h2 Preguntas de tipo mixto
-              p Estas delimitan y clasifican la respuesta a obtener, en algunas ocasiones se puede clasificar en dos tipos de respuesta: 
-              p #[b Dicotómicas:] por ejemplo sí o no, no obstante, también se pueden plantear alternativas más amplias de única selección o de selección múltiple.
-              p #[b Politómicas:] todo depende de la necesidad y de los objetivos de la investigación, por ejemplo, ¿con cuál o cuáles colores se identifica?  (seleccione 1, 2, 3, etc.), “negro, amarillo, verde, rojo, azul” o los que determine el investigador.
+              p Es también común encontrar en la encuestas preguntas de tipo cerrado donde se incluyen alternativas de preguntas de tipo abierto en preguntas como observaciones u otros.
+              p por ejemplo, ¿tienes hijos?, ¿cuantos?
     .row.align-items-center.bg-color3.p-5.p-lg-0.mb-5(style="margin-inline: -3.2rem !important")
       .col-lg-4
         figure.my-4.my-lg-0
@@ -179,7 +178,7 @@
         p para ampliar la información.
       .col-2.mb-4.mb-lg-0
         a.boton.color-acento-botones.me-3(href="https://youtu.be/mwnQuUi9014" target="_blank")
-          span Descargar
+          span Ver video
           i.fas.fa-file-download
     h2.mb-5 Aplicación de instrumentos
     .row.align-items-start.mb-4

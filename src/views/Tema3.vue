@@ -135,7 +135,7 @@
                     figure
                       img(src='@/assets/curso/tema3/img11.png', style="width: 40px").m-auto
                   .col
-                    p.mb-0 Encuesta online.
+                    p.mb-0 Encuesta #[i online].
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/img12.png', style="width: 450px").m-auto
@@ -187,7 +187,7 @@
         .row.p-4.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             h3.txt-deco1 Análisis documental
-            p Una diferencia muy notoria entres esta y las otras técnicas que se están tratando es que en estas últimas se obtienen datos de fuente primaria, en cambio mediante el análisis documental se recolectan datos de fuentes secundarias. Libros, boletines, revistas, folletos y periódicos se utilizan como fuentes para recolectar datos sobre las variables de interés.
+            p Una diferencia muy notoria entre esta y las otras técnicas que se están tratando es que en estas últimas se obtienen datos de fuente primaria, en cambio mediante el análisis documental se recolectan datos de fuentes secundarias. Libros, boletines, revistas, folletos y periódicos se utilizan como fuentes para recolectar datos sobre las variables de interés.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/img14.png', style="width: 450px").m-auto
