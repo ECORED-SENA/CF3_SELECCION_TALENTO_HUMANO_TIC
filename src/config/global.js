@@ -203,7 +203,7 @@ export default {
   complementario: [
     {
       texto:
-        'Universidad Nacional – Sede Manizales. (2017). <em>La estadística, su historia y evolución</em>.',
+        'Universidad Nacional - Sede Manizales. (2017). <em>0.1 Vídeo Introductorio: Antecedentes de la Estadística</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-NutZ7n-Exg',
     },
